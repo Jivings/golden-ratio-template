@@ -1,6 +1,8 @@
 Golden Ratio Template
 =====================
 
+http://jivings.github.io/golden-ratio-template/
+
 A responsive template based around the [Golden Ratio][1] to improve reading and overall user experience.
 
 Inspired by [Sven Read][2], each height, width, padding and margin is defined by the golden ratio. The base font is 16px, changing in increments with screen size. 
