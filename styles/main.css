@@ -1,0 +1,154 @@
+html, body {
+    font-size: 12px;
+    font-family: 'Segoe UI', 'Segoe UI Web Regular', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 800px) {
+    html, body {
+        font-size: 14px;
+    }   
+}
+
+@media (min-width: 1200px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1600px) {
+    html, body {
+        font-size: 18px;
+    }    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgba(0, 114, 198, 0.75);
+}
+
+footer {
+
+}
+
+main {
+    padding-top: 40px;
+}
+
+.header--inner, .main--content, .footer--inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .header--inner, .main--content, .footer--inner {
+        width: 62%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header--inner, .main--content, .footer--inner {
+        width: 50%;
+    }
+}
+
+section, article {
+    font-size: 1.33rem;
+    padding: 0 1.33rem;
+}
+
+@media (min-width: 800px) {
+    section, article {
+        padding: 0 1.7689rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    section, article {
+        padding: 0 2.35264rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    section, article {
+        padding: 0 3.12901rem;
+    }
+}
+
+.main--content p {
+    padding: 0 0 1.7689rem;
+    margin: 0;
+    font-size: 1.33rem;
+    line-height: 1.4;
+}
+
+.main--content h1 {
+    font-size: 3.12901rem;
+    text-align: center;
+    line-height: 1.25;
+    font-weight: 300;
+    margin: 0;
+    padding: 1.618rem 0 1.618rem;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 800px) {
+    .main--content h1 {
+        padding: 2.61792rem 1.7689rem 2.61792rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main--content h1 {
+        padding: 2.61792rem 2.35264rem 2.61792rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main--content h1 {
+        padding: 2.61792rem 3.12901rem 2.61792rem;
+    }
+}
+
+.header--links {
+    list-style: none;
+    padding: 0 1.33rem;
+}
+
+.header--links li {
+    display: inline-block;
+}
+
+.header--links a {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.header--links a:hover {
+    background-color: rgba(0, 100, 173, 0.498039);
+}
+
+.header--links-left {
+    float: left;
+}
+
+.header--links-right {
+    float: right;
+}
+
